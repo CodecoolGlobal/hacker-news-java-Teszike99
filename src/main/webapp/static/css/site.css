@@ -1,14 +1,39 @@
 .column {
-    margin: 2px;
-    color: darkgrey;
+    padding-top: 20px;
+    padding-left: 30px;
     text-align: center;
     float: left;
-    width: 10%;
+    width: 17%;
 }
 
 .row:after {
+
     content: "";
     display: table;
-    text-align: left;
     clear: both;
+
+}
+
+.card {
+    text-align: center;
+}
+
+.table {
+    padding: 50px;
+    background-color: darkgrey;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.tableContainer{
+    padding-top: 25px;
+    top: 300px;
+    text-align: center;
+
+}
+
+.mainDiv{
+    .text-align: center;
 }

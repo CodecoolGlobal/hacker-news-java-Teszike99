@@ -6,11 +6,19 @@ async function getUrl(){
 
 }
 
-function testMethod(){
-    let newDiv = document.createElement("div");
-    newDiv.innerHTML = "Its working now lol";
-    document.body.appendChild(newDiv);
-    console.log(document.body);
+
+function createCards(){
+    let table = document.getElementById("table")
+    for (let i=0; i<5; i++ ){
+        let newRow = document.createElement("tr")
+        for(let i=0; i<6; i++){
+            let newCard = document.createElement("td")
+            newCard.innerHTML = "itsWorkLOL"
+            newCard.classList.add("card")
+            newRow.appendChild(newCard)
+        }
+        table.appendChild(newRow)
+    }
 }
 
-testMethod();
+createCards();

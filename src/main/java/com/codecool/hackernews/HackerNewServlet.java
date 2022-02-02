@@ -23,9 +23,10 @@ public class HackerNewServlet extends javax.servlet.http.HttpServlet {
                         "    <script src='/static/js/main.js' defer></script>" +
                         "</head>\n" +
                         "<body id=body>\n" +
-                        "<div class= row>" +
+                        "<div clas= mainDiv>" +
+                        "<div class= row id= mainDiv> " +
                         "   <div class= column>" +
-                        "       <a href= /news >Hackson news</a>" +
+                        "       <a href= /api/top?page=1 >Hackson news</a>" +
                         "   </div>" +
                         "   <div class= column>" +
                         "       <a>Top news</a>" +
@@ -37,6 +38,13 @@ public class HackerNewServlet extends javax.servlet.http.HttpServlet {
                         "       <a>Jobs</a>" +
                         "   </div>" +
                         "</div>" +
+
+                        "<div class= tableContainer>" +
+                        "<table class= table id= table>" +
+                        "</table>" +
+                        "</div>" +
+                        "</div>" +
+
                         "</body></html>"
         );
     }
