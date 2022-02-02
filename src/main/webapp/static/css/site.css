@@ -1,12 +1,14 @@
-.visit {
-    color: blue;
-    font-weight: bolder;
+.column {
+    margin: 2px;
+    color: darkgrey;
+    text-align: center;
+    float: left;
+    width: 10%;
 }
 
-.folder {
-    color: darkblue;
-    background-color: antiquewhite;
-    font-style: italic;
-    border: 1px solid darkred;
-    padding: 3px;
+.row:after {
+    content: "";
+    display: table;
+    text-align: left;
+    clear: both;
 }
