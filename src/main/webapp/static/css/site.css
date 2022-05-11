@@ -1,39 +1,77 @@
-.column {
-    padding-top: 20px;
-    padding-left: 30px;
-    text-align: center;
+.visit {
+    color: blue;
+    font-weight: bolder;
+}
+
+.folder {
+    color: darkblue;
+    background-color: antiquewhite;
+    font-style: italic;
+    border: 1px solid darkred;
+    padding: 3px;
+}
+
+.navhead {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbody {
     float: left;
-    width: 17%;
 }
 
-.row:after {
-
-    content: "";
-    display: table;
-    clear: both;
-
+a {
+    size: B4;
 }
+
+h3 {
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
 
 .card {
-    text-align: center;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    height: 15%;
+    float: left;
+    margin: 10px;
+    background: dimgrey;
 }
 
-.table {
-    padding: 50px;
-    background-color: darkgrey;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    background-color: #111111;
+    color: white;
     text-align: center;
-
-
-}
-
-.tableContainer{
-    padding-top: 25px;
-    top: 300px;
-    text-align: center;
-
-}
-
-.mainDiv{
-    .text-align: center;
 }
